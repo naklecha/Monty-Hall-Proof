@@ -1,6 +1,3 @@
-# Monty-Hall-Proof
-
-```
 import random
 
 n = 100000 # number of times to run the estimation
@@ -28,4 +25,5 @@ for i in range(n):
         woncar += 1
     
     print("Chance that you win a car if you switch:", woncar/(i+1))
-```
+    
+    
